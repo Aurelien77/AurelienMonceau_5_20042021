@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link href="./image/icone.png" rel="shortcut icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+
+    <meta name="description" content="Oursons sur mesure" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Oribear</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap");
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <nav>
+          <a href="panier.html">
+            <div id="nombre_panier" classe="card3"></div
+          ></a>
+          <div><img src="./image/devanture3.png" class="imgresize" /></div>
+        </nav>
+      </a>
+    </header>
+
+    <main class="pad cent">
+      <section class="card">
+        <div id="sections" class="card-body flexlign">
+          <template id="OursonTemplate">
+            <a
+              id="link"
+              class="btn btn-outline-primary { color: #fff;"
+              href="produit.html"
+              role="button"
+            >
+              <img id="imagesours" class="tailleimg" />
+              <div class="card2">
+                <h3 id="nomsours"></h3>
+
+                <h3 id="prixours"></h3>
+              </div>
+
+              <h3 class="card3" id="descriptionours"></h3>
+            </a>
+          </template>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul class="footer flexlign">
+        <div class="imgpos"><img src="./image/ours2.png" /></div>
+
+        <li><a href="#">Contact</a></li>
+
+        <li><a href="#">Mentions légals</a></li>
+        <div class="imgpos"><img src="./image/ours.png" /></div>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
